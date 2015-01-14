@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'facebook';
+    src: url('../fonts/facebolf-webfont.eot');
+    src: url('../fonts/facebolf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/facebolf-webfont.woff2') format('woff2'),
+         url('../fonts/facebolf-webfont.woff') format('woff'),
+         url('../fonts/facebolf-webfont.ttf') format('truetype'),
+         url('../fonts/facebolf-webfont.svg#facebook_letter_facesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#wowslider-container1 {
+    position: absolute;
+    top:120px;
+    left:-400px;
+	}
+body{
+  background: url('../image/fondo.png') repeat-x ; 
+  background-color: rgb(214,219,234);
+  -webkit-background-size: content;
+ -moz-background-size: content;
+ -o-background-size: content;
+  background-size: content;
+  overflow: hidden;
+ font-family: facebook;
+}
+a{text-decoration: none; color: white;}
+.error{color:red; position:relative; top:50px; left:230px; }
+
+#logo{
+    font-size: 1.5em;
+ font-family: facebook;
+ color:white;
+    margin-left: 15%;
+    margin-top:-20px;
+}
+
+#tabla_login{
+    position: absolute;
+    left:60%;
+    color:white;  
+    top:20px;
+    border:0px solid rgba(0,0,0,0);
+}
+#tabla_login td *{margin-left:10px; margin-right:20px;}
+#submit{margin:0 0; width:100%;}
+#submit:hover{background-color: rgb(60,90,150); color:white;}
+#recordar{position:relative;  color:white; font-size: 0.8em; left: -10px; text-decoration: none; text-align:right;}
+#recordar:hover{background-color: white; color:rgb(60,90,150);}
+
+#tabla_alta{
+    position: absolute;
+    left:60%;
+    color:rgb(60,90,150);
+    top:200px;
+    border:0px solid rgba(0,0,0,0);    
+}
+#tabla_alta input{margin-bottom:15px; font-size: 1.2em;}
+#tabla_alta label{position: relative; top:-8px; font-size: 1.2em;}
+#tabla_alta .submit{width:100%;}
+#tabla_alta .submit:hover{width:100%; background-color: rgb(60,90,150); color:white;}
+#tabla_alta h1{font-size: 4em;}
+.form *{
+    position:relative;
+    min-width:30px;
+    left:70%;
+}
+
+.logout{
+    position: relative;
+    margin:90px auto;
+    min-width:600px;
+    max-width: 80%;
+    color:red;
+    text-align: center;
+    border:2px solid rgb(60,90,150);
+}
+
+.logout h1{
+    font-size: 6em;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+.logout a{
+    text-decoration: none;
+color:red;
+    text-align: center;
+    
+}
+
+
+.h1_noRoot{color:white; float: left;}
+.p_noRoot{}
